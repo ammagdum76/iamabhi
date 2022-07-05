@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee registration form</title>
+</head>
+
+<body>
+    <h2>Employee registration form</h2>
+    <div style="background-color: rgba(128, 128, 128, 0.667)">
+        <fieldset>
+            <legend>Persoanl information-:</legend> <br>
+            <form action="abc.php">
+                First name -: <br> 
+                <input type="text" name="First name" placeholder="Enter first name"> <br>  <br>
+                Middle name -: <br>
+                <input type="text" name="Middle name" placeholder="Enter middle name">  <br> <br>
+                Last name -: <br> 
+                <input type="text" name="Last name" placeholder="Enter last name"> <br> <br>
+
+                Gender -: <br>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Other">Other <br> <br>
+
+                Phone no -: <br>
+                <input type="text" size="1" value="+91" readonly>
+                <input type="text"> <br> <br>
+                Email -:
+                <input type="email" placeholder="Enter email"> <br> <br>
+                birthdate -:
+                <input type="date"> <br> <br>
+
+                select state -:
+                <select name="state" id="state">
+                    <option value="Select state">Select state</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujrat">Gujrat</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                </select> <br><br>
+                Address - <br> <br>
+                Plot no / Building name/ Area -: <br>
+                <input type="text" name="address" size="30" maxlength="50"> <br>
+                Landmark / locality -: <br>
+                <input type="text" name="address" size="30" maxlength="50"> <br>
+                City -: <br>
+                <input type="text" size="9"> <input type="text" placeholder="Zipcode" size="5"> <br><br>
+
+                Upload photo & Signature -: <br>
+                <input type="file">
+                <input type="file">
+                <br> <br>
+
+                <input type="submit"> <input type="reset">
+
+
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>
